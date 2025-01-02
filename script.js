@@ -3,7 +3,7 @@ const messageElement = document.getElementById('message');
 
 // Set the target time to midnight
 const targetTime = new Date();
-targetTime.setHours(24, 0, 0, 0); // Midnight of the current day
+targetTime.setHours(20, 0, 0, 0); // Midnight of the current day
 
 function updateCountdown() {
     const currentTime = new Date();
